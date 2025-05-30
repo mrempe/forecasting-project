@@ -103,6 +103,7 @@ def main():
     forecast_series = pd.Series(predictions, index=forecast_index)
 
     print(forecast_index)
+    print(forecast_series)
 
     # --- Plot actual vs forecast ---
     plt.figure(figsize=(10, 5))
