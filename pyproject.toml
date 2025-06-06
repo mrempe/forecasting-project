@@ -5,10 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+   "numpy",
    "pandas",
+   "seaborn",
    "xgboost",
    "scikit-learn",
-   "matplotlib"
+   "matplotlib",
+   "datetime",
+   "plotly",
+   "statsmodels"
 ]
 
 [dependency-groups]
